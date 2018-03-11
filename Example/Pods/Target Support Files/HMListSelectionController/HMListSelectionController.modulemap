@@ -1,0 +1,6 @@
+framework module HMListSelectionController {
+  umbrella header "HMListSelectionController-umbrella.h"
+
+  export *
+  module * { export * }
+}

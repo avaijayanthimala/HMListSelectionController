@@ -1,0 +1,16 @@
+PODS:
+  - HMListSelectionController (0.1.0)
+
+DEPENDENCIES:
+  - HMListSelectionController (from `../`)
+
+EXTERNAL SOURCES:
+  HMListSelectionController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HMListSelectionController: 32484cf9d2e71851a8a8a5e105798c5247ba8684
+
+PODFILE CHECKSUM: 45fe2fb42348fb6fc8435e4507075a67f7ba04b0
+
+COCOAPODS: 1.4.0
