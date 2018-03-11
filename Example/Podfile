@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HMListSelectionController_Example' do
+  pod 'HMListSelectionController', :path => '../'
+
+  target 'HMListSelectionController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
