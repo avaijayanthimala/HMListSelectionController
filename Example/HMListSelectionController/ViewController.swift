@@ -30,9 +30,12 @@ class ViewController: UIViewController, HMListSelectionDelegate {
             if let bundle = Bundle(url: bundleURL) {
                 let listSelectionController = HMListSelectionController(nibName: "HMListSelectionController", bundle: bundle)
                 listSelectionController.delegate = self
-                listSelectionController.navTitle = "Cars"
                 listSelectionController.aryList = aryCars;
                 listSelectionController.selectedary = selectedItems;
+                listSelectionController.addButtonNeeded = true
+                listSelectionController.isMultiSelection = true
+                listSelectionController.setNavigationBar(headername: "CARS LIST", navbarcolor: .red, size: 15, name: "Helivatica", titleColor: .white)
+                listSelectionController.setAddButtonDetails(btnName: "Add Cars", bgcolor: .red, size: 13, name: "Helivatica", titleColor: .white)
                 self.navigationController?.pushViewController(listSelectionController, animated: true)
             }
         }
