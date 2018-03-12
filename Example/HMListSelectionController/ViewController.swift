@@ -9,6 +9,7 @@
 import UIKit
 import HMListSelectionController
 
+
 class ViewController: UIViewController, HMListSelectionDelegate {
 
     var aryCars = ["swift","Maruthi","Hundai","Ford","BMW","RolesRoyals","VolsWages","Jaguar"];
@@ -32,10 +33,24 @@ class ViewController: UIViewController, HMListSelectionDelegate {
                 listSelectionController.delegate = self
                 listSelectionController.aryList = aryCars;
                 listSelectionController.selectedary = selectedItems;
-                listSelectionController.addButtonNeeded = true
+                listSelectionController.addButtonNeeded = false
                 listSelectionController.isMultiSelection = true
-                listSelectionController.setNavigationBar(headername: "CARS LIST", navbarcolor: .red, size: 15, name: "Helivatica", titleColor: .white)
-                listSelectionController.setAddButtonDetails(btnName: "Add Cars", bgcolor: .red, size: 13, name: "Helivatica", titleColor: .white)
+                
+                let navBarProperties = NavBarPropertiesDTO()
+                navBarProperties.navBarBGColor = .red
+                navBarProperties.navBarTitle = "CARS LIST"
+                navBarProperties.navBarFontFamily = "Helivatica"
+                navBarProperties.navBarFontSize = 15
+                navBarProperties.navBarTextColor = .white
+                listSelectionController.navBarProperties = navBarProperties
+                
+//                let addBtnProperties = AddButtonPropertiesDTO()
+//                addBtnProperties.btnaddBGColor = .white
+//                addBtnProperties.btnaddFontFamily = "Helivatica"
+//                addBtnProperties.btnaddFontSize = 15
+//                addBtnProperties.btnaddTextColor = .red
+//                addBtnProperties.btnaddTitle = "Add Cars"
+//                listSelectionController.addButtonProperties = addBtnProperties
                 self.navigationController?.pushViewController(listSelectionController, animated: true)
             }
         }

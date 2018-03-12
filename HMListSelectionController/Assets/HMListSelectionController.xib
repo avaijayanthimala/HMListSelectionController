@@ -17,7 +17,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HMListSelectionController" customModule="HMListSelectionController" customModuleProvider="target">
             <connections>
-                <outlet property="addBtnHeightConstraint" destination="A3I-lg-mkZ" id="Kkg-yC-fWC"/>
+                <outlet property="addBtnHeightConstraint" destination="A3I-lg-mkZ" id="o6F-47-R21"/>
                 <outlet property="btnAdd" destination="YI4-Ha-JsE" id="JNQ-84-RvK"/>
                 <outlet property="btnBack" destination="NNi-cz-FJH" id="G5j-Vq-OMZ"/>
                 <outlet property="btnDone" destination="Znj-OC-yDP" id="D07-FX-5DY"/>
@@ -96,13 +96,13 @@
                         <outlet property="delegate" destination="-1" id="2ve-HJ-JFg"/>
                     </connections>
                 </tableView>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YI4-Ha-JsE">
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YI4-Ha-JsE">
                     <rect key="frame" x="0.0" y="627" width="375" height="40"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="A3I-lg-mkZ"/>
                     </constraints>
                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                    <state key="normal" title="Add New Company">
+                    <state key="normal" title="Add">
                         <color key="titleColor" red="0.89019607840000003" green="0.023529411760000001" blue="0.074509803920000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <connections>

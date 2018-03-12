@@ -9,13 +9,14 @@
 import Foundation
 import UIKit
 
+
 public protocol HMListSelectionDelegate {
     func multiselectData(selectedItem: NSArray)
     func addNewItems()
 }
 
 public class HMListSelectionController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchResultsUpdating {
-   
+    
     //MARK: - IBOutlets
     @IBOutlet weak var lblTitle: UILabel!
     
@@ -25,7 +26,7 @@ public class HMListSelectionController: UIViewController, UITableViewDelegate, U
     
     @IBOutlet weak var btnDone: UIButton!
     
-     @IBOutlet weak var btnAdd: UIButton!
+    @IBOutlet weak var btnAdd: UIButton!
     
     @IBOutlet weak var viewHeader: UIView!
     
@@ -46,42 +47,32 @@ public class HMListSelectionController: UIViewController, UITableViewDelegate, U
     
     let searchController = UISearchController(searchResultsController: nil)
     
-    //nav bar properties
-    var navBarTitle: String?
-    var navBarBGColor: UIColor?
-    var navBarFontSize: CGFloat?
-    var navBarFontFamily: String?
-    var navBarTextColor: UIColor?
+    public var navBarProperties = NavBarPropertiesDTO()
     
-    //add button properties
-    var btnaddTitle: String?
-    var btnaddBGColor: UIColor?
-    var btnaddFontSize: CGFloat?
-    var btnaddTextColor: UIColor?
-    var btnaddFontFamily: String?
+    public var addButtonProperties = AddButtonPropertiesDTO()
     
     //MARK: - View Life Cycle
     override public func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         self.navigationController?.isNavigationBarHidden = true
         setupSearchController()
         tableView.allowsMultipleSelection = isMultiSelection
         if addButtonNeeded == true {
+            btnAdd.setTitle(addButtonProperties.btnaddTitle, for: .normal)
+            btnAdd.backgroundColor = addButtonProperties.btnaddBGColor
+            btnAdd.titleLabel?.font =  UIFont(name: addButtonProperties.btnaddFontFamily!, size: addButtonProperties.btnaddFontSize!)
+            btnAdd.setTitleColor(addButtonProperties.btnaddTextColor, for: .normal)
             addBtnHeightConstraint.constant = 40
         } else {
             addBtnHeightConstraint.constant = 0
         }
-        lblTitle.text = navBarTitle
-        lblTitle.textColor = navBarTextColor
-        lblTitle.font = UIFont(name: navBarFontFamily!, size: navBarFontSize!)
+        self.view.layoutIfNeeded()
+        lblTitle.text = navBarProperties.navBarTitle
+        lblTitle.textColor = navBarProperties.navBarTextColor
+        lblTitle.font = UIFont(name: navBarProperties.navBarFontFamily!, size: navBarProperties.navBarFontSize!)
         
-        viewHeader.backgroundColor = navBarBGColor
+        viewHeader.backgroundColor = navBarProperties.navBarBGColor
         
-        btnAdd.setTitle(btnaddTitle, for: .normal)
-        btnAdd.backgroundColor = btnaddBGColor
-        btnAdd.titleLabel?.font =  UIFont(name: btnaddFontFamily!, size: btnaddFontSize!)
-        btnAdd.setTitleColor(btnaddTextColor, for: .normal)
         tableView.reloadData();
     }
     
@@ -99,7 +90,7 @@ public class HMListSelectionController: UIViewController, UITableViewDelegate, U
         if searchController.isActive && searchController.searchBar.text != "" {
             return filteredAryList.count
         }
-            return aryList.count
+        return aryList.count
         
     }
     
@@ -125,7 +116,7 @@ public class HMListSelectionController: UIViewController, UITableViewDelegate, U
             cell!.selectionStyle = .none
             cell!.accessoryType = self.selectedary.contains(selectedText) ? .checkmark : .none
         }
-       
+        
         return cell!
     }
     
@@ -214,25 +205,6 @@ public class HMListSelectionController: UIViewController, UITableViewDelegate, U
         
     }
     
-    public func setNavigationBar(headername title: String,navbarcolor barColor: UIColor,size fontSize: CGFloat,name fontname: String,titleColor textColor: UIColor ) {
-        navBarTitle = title
-        navBarBGColor = barColor
-        navBarFontSize = fontSize
-        navBarTextColor = textColor
-        navBarFontFamily = fontname
-    }
-    
-    public func setAddButtonDetails(btnName text:String,bgcolor backgroundColor: UIColor,size fontSize: CGFloat,name fontname: String,titleColor textColor: UIColor) {
-        btnaddTitle = text
-        btnaddBGColor = backgroundColor
-        btnaddFontSize = fontSize
-        btnaddTextColor = textColor
-        btnaddFontFamily = fontname
-        
-//        btnAdd.setTitle(text, for: .normal)
-//        btnAdd.backgroundColor = backgroundColor
-//        btnAdd.titleLabel?.font =  UIFont(name: fontname, size: fontSize)
-//        btnAdd.setTitleColor(textColor, for: .normal)
-    }
-    
 }
+
+

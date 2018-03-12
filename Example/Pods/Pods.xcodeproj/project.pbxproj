@@ -7,71 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07D79562EE98A197F9AA9B6F334BAFF0 /* HMListSelectionController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 45D03A1B3C7C7807C06D142AB0368E47 /* HMListSelectionController.bundle */; };
-		0917A5E5D6472ADF7D23E3E6B59E512C /* HMListSelectionController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD4B391E7717A49D738F27052C7CC4E /* HMListSelectionController-dummy.m */; };
-		279C764EF3FEA8E97EA1B8E237A43118 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		1FD28A6877B9E685BF6AF9594C492C3D /* HMListSelectionController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 45D03A1B3C7C7807C06D142AB0368E47 /* HMListSelectionController.bundle */; };
+		2E6190EA6E68556631F83D424F41F780 /* HMListSelectionControllerDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FC434F25821F177D8FAC518151F903 /* HMListSelectionControllerDTO.swift */; };
+		30A24E8D9161E7559E77E27C019BEB92 /* HMListSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E88EDEB487F92C2879992DA267A65D /* HMListSelectionController.swift */; };
 		5C206D00955BBA8E7C75C42F7FB157BA /* Pods-HMListSelectionController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8531FE89893D571AB3143879EA3465B1 /* Pods-HMListSelectionController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E47A3B41CC4B7703E21F8157BF9FD07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		5E853C220E7F5A4A1E4E1B0CDFCF5C63 /* HMListSelectionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26380E070F65876D8463862F733D53A /* HMListSelectionController.xib */; };
-		8E91C96FBC79DEE6AFC7BE5C600AD83D /* HMListSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895423D1FDBB5FB320E07BDD13C16540 /* HMListSelectionController.swift */; };
-		A6F630823F8935A67B75552F288885F2 /* HMListSelectionController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9C3A56215CB5526CAAFCDCC71052D1A /* HMListSelectionController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BF2B77EC9020211A8E283988E12A9F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		87811935FBD8979BDB43B32DCF954328 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		93241FD132D4FA2D1461421D599E8CF0 /* HMListSelectionController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 883BA7A2AE2F781A96D72F5628DA9093 /* HMListSelectionController-dummy.m */; };
+		A47FB03DC94AE7C3BAA07A3EF5ED3506 /* HMListSelectionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ED8F96268FF89D55F11DDA691E80B7F /* HMListSelectionController.xib */; };
 		AE0A8467DADFC660B93536868780C0AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		B13F0464951303521F607D3481D6EE18 /* Pods-HMListSelectionController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D270F6ED471A9DC8D903A59340E7F66 /* Pods-HMListSelectionController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B28A6981654A696984E26BAEA1664423 /* Pods-HMListSelectionController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97373EA0F7988B4DACC03E028E8368EF /* Pods-HMListSelectionController_Tests-dummy.m */; };
 		DAE75BCB69C94F928985934E56C93419 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		F81F217C495C2C398D81B52C1CF6E2FA /* Pods-HMListSelectionController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C25E4D418F826ECE62C076361CDA2E16 /* Pods-HMListSelectionController_Example-dummy.m */; };
+		FBA441762AD6DFF7B1BD98DBB0B7B7BF /* HMListSelectionController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B76CF0BBC9894B9B6C66C2EEA2175C76 /* HMListSelectionController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		022E9F29843952101AEFE4D959EC818E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55A80EC13610FD180374709FFED9D544;
-			remoteInfo = "HMListSelectionController-HMListSelectionController";
-		};
 		E5DF84646B1D9E37B99159C81AF8BAA3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2E690F1E89EEE8508AE54E974A7CF3A9;
+			remoteGlobalIDString = 59B5EFEFD2C26B79E06F6511332EFA51;
 			remoteInfo = HMListSelectionController;
+		};
+		EC799166DD03AB71FDD27485ACF1F66C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04936EBC37464ECA40FCF144EA25F12B;
+			remoteInfo = "HMListSelectionController-HMListSelectionController";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0553E36449D15012FEAA394CD7D7393A /* HMListSelectionController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HMListSelectionController.xcconfig; sourceTree = "<group>"; };
-		08E2031FA383A6D787B2175D5334E027 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		13F5C97E4251D22A1F2E170831A4E95C /* HMListSelectionController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMListSelectionController-prefix.pch"; sourceTree = "<group>"; };
 		140B08EE3873D86D88D9AAF1E64DCEF6 /* Pods-HMListSelectionController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HMListSelectionController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		178DBC72DC95C74650E7755010DFB97C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1972A2ECD5C8CBFFCC12AB24B3CA956A /* Pods-HMListSelectionController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HMListSelectionController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		20217F0A4F6355E7464EF9AF76F45E52 /* Pods-HMListSelectionController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HMListSelectionController_Tests-resources.sh"; sourceTree = "<group>"; };
 		236C86CA69AEC06DFD4361E9E8586603 /* Pods_HMListSelectionController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HMListSelectionController_Tests.framework; path = "Pods-HMListSelectionController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		25A3B9F5420361E53073BE1D4D2FB78D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		2ABD6A6E34046E1E6B1D5B47B9432461 /* ResourceBundle-HMListSelectionController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HMListSelectionController-Info.plist"; sourceTree = "<group>"; };
-		2E44BCB6750933E976251210656DA05F /* HMListSelectionController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HMListSelectionController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		39311EA1220AE7F8D1F83D4DEACDCC91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25FC434F25821F177D8FAC518151F903 /* HMListSelectionControllerDTO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMListSelectionControllerDTO.swift; path = HMListSelectionController/Classes/HMListSelectionControllerDTO.swift; sourceTree = "<group>"; };
+		3FFB92B1509FD6E0A411326A8F450ADF /* HMListSelectionController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HMListSelectionController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4514B2EB066F2D7B466FB4F1B27D6787 /* Pods_HMListSelectionController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HMListSelectionController_Example.framework; path = "Pods-HMListSelectionController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45D03A1B3C7C7807C06D142AB0368E47 /* HMListSelectionController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HMListSelectionController.bundle; path = "HMListSelectionController-HMListSelectionController.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C82E5F8B7748BC9122861BEE01A633C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		50AE1C6BF46D50AD8BD2785A3FACD710 /* HMListSelectionController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HMListSelectionController.modulemap; sourceTree = "<group>"; };
+		542E40923DD2405904C76DCC170D0F7E /* HMListSelectionController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HMListSelectionController.xcconfig; sourceTree = "<group>"; };
+		5745479490515A1AD352A1ED875ED188 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		5EAE367BFEF4A6E849DDE5BCDD241F25 /* Pods-HMListSelectionController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMListSelectionController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		60D9950BB2CB3E20924B418D01926748 /* Pods-HMListSelectionController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HMListSelectionController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6ED8F96268FF89D55F11DDA691E80B7F /* HMListSelectionController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HMListSelectionController.xib; path = HMListSelectionController/Assets/HMListSelectionController.xib; sourceTree = "<group>"; };
+		6FBB77170C02852B6F06CA061EF68D09 /* ResourceBundle-HMListSelectionController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HMListSelectionController-Info.plist"; sourceTree = "<group>"; };
 		743D28844028F3430F9306AB36043E1D /* Pods-HMListSelectionController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HMListSelectionController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		74825811F4F69836284F18373094E24E /* HMListSelectionController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HMListSelectionController.framework; path = HMListSelectionController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C114165D375D933F0A8B8CC68DC4CA2 /* HMListSelectionController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMListSelectionController-prefix.pch"; sourceTree = "<group>"; };
+		7AA1A4D5937D4959765B311412DC97EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83CFEF684A0E0AE5F488A3CE61E34F7C /* Pods-HMListSelectionController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HMListSelectionController_Example-resources.sh"; sourceTree = "<group>"; };
 		8531FE89893D571AB3143879EA3465B1 /* Pods-HMListSelectionController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HMListSelectionController_Tests-umbrella.h"; sourceTree = "<group>"; };
-		895423D1FDBB5FB320E07BDD13C16540 /* HMListSelectionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMListSelectionController.swift; path = HMListSelectionController/Classes/HMListSelectionController.swift; sourceTree = "<group>"; };
+		883BA7A2AE2F781A96D72F5628DA9093 /* HMListSelectionController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HMListSelectionController-dummy.m"; sourceTree = "<group>"; };
 		8957CFA475A7F110F466DB7AB94DB7B5 /* Pods-HMListSelectionController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMListSelectionController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97373EA0F7988B4DACC03E028E8368EF /* Pods-HMListSelectionController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HMListSelectionController_Tests-dummy.m"; sourceTree = "<group>"; };
 		983F09857D03FC54D86DD04161838C91 /* Pods-HMListSelectionController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HMListSelectionController_Tests.modulemap"; sourceTree = "<group>"; };
-		9B14404E0C99B9BC215EDDB01DEC1F26 /* HMListSelectionController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HMListSelectionController.modulemap; sourceTree = "<group>"; };
 		9D270F6ED471A9DC8D903A59340E7F66 /* Pods-HMListSelectionController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HMListSelectionController_Example-umbrella.h"; sourceTree = "<group>"; };
-		B26380E070F65876D8463862F733D53A /* HMListSelectionController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HMListSelectionController.xib; path = HMListSelectionController/Assets/HMListSelectionController.xib; sourceTree = "<group>"; };
 		B280D0D79FB7F86B01548A3D89DE281A /* Pods-HMListSelectionController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMListSelectionController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B3E88EDEB487F92C2879992DA267A65D /* HMListSelectionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMListSelectionController.swift; path = HMListSelectionController/Classes/HMListSelectionController.swift; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B9C3A56215CB5526CAAFCDCC71052D1A /* HMListSelectionController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMListSelectionController-umbrella.h"; sourceTree = "<group>"; };
-		BBD4B391E7717A49D738F27052C7CC4E /* HMListSelectionController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HMListSelectionController-dummy.m"; sourceTree = "<group>"; };
+		B76CF0BBC9894B9B6C66C2EEA2175C76 /* HMListSelectionController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMListSelectionController-umbrella.h"; sourceTree = "<group>"; };
 		C25E4D418F826ECE62C076361CDA2E16 /* Pods-HMListSelectionController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HMListSelectionController_Example-dummy.m"; sourceTree = "<group>"; };
 		C7381CA282D8E85796B334DE0157903F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8444FE6BB1A523AADA8BF5CEB33252C /* Pods-HMListSelectionController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HMListSelectionController_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -82,19 +84,12 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		11C1A658CE9FF2046F700EC54AFB443D /* Frameworks */ = {
+		1E4FA39346272AA4CD89E3C675DD843C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		34BACB9640885232143CB99B1D23C821 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				279C764EF3FEA8E97EA1B8E237A43118 /* Foundation.framework in Frameworks */,
-				5E47A3B41CC4B7703E21F8157BF9FD07 /* UIKit.framework in Frameworks */,
+				7BF2B77EC9020211A8E283988E12A9F8 /* Foundation.framework in Frameworks */,
+				87811935FBD8979BDB43B32DCF954328 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +98,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE0A8467DADFC660B93536868780C0AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACB7D253BBB5B464DFA8FEB00579EA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,12 +119,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		082134B213CE1997F090C3216FF8684A /* Development Pods */ = {
+		1011952981DA04E29EFBB7DD86BA34AF /* HMListSelectionController */ = {
 			isa = PBXGroup;
 			children = (
-				5110CCF2EFBAC066A94572D5F03716C6 /* HMListSelectionController */,
+				B3E88EDEB487F92C2879992DA267A65D /* HMListSelectionController.swift */,
+				25FC434F25821F177D8FAC518151F903 /* HMListSelectionControllerDTO.swift */,
+				EDF68435FB71F2EFAEE2B6D9453F3825 /* Pod */,
+				73905E115C40DCF405A35DCCA9A462BD /* Resources */,
+				7A5FFE0E8DB08587F47BE6DE0D957E57 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = HMListSelectionController;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		10AECAA2DB4A04A55FC5AE4EA379B90A /* Products */ = {
@@ -134,21 +141,6 @@
 				236C86CA69AEC06DFD4361E9E8586603 /* Pods_HMListSelectionController_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		1964D50C6C05CF86849E6FD425E70CA1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9B14404E0C99B9BC215EDDB01DEC1F26 /* HMListSelectionController.modulemap */,
-				0553E36449D15012FEAA394CD7D7393A /* HMListSelectionController.xcconfig */,
-				BBD4B391E7717A49D738F27052C7CC4E /* HMListSelectionController-dummy.m */,
-				7C114165D375D933F0A8B8CC68DC4CA2 /* HMListSelectionController-prefix.pch */,
-				B9C3A56215CB5526CAAFCDCC71052D1A /* HMListSelectionController-umbrella.h */,
-				39311EA1220AE7F8D1F83D4DEACDCC91 /* Info.plist */,
-				2ABD6A6E34046E1E6B1D5B47B9432461 /* ResourceBundle-HMListSelectionController-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HMListSelectionController";
 			sourceTree = "<group>";
 		};
 		2C9BC6B4D3E14A016C55D10ABEE7E8C1 /* Pods-HMListSelectionController_Example */ = {
@@ -186,45 +178,46 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5110CCF2EFBAC066A94572D5F03716C6 /* HMListSelectionController */ = {
+		73905E115C40DCF405A35DCCA9A462BD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				895423D1FDBB5FB320E07BDD13C16540 /* HMListSelectionController.swift */,
-				DA168486137410D4225884E3B76A2A95 /* Pod */,
-				BE3F8225D7A124DC837F8244B28805EF /* Resources */,
-				1964D50C6C05CF86849E6FD425E70CA1 /* Support Files */,
+				6ED8F96268FF89D55F11DDA691E80B7F /* HMListSelectionController.xib */,
 			);
-			name = HMListSelectionController;
-			path = ../..;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7A5FFE0E8DB08587F47BE6DE0D957E57 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				50AE1C6BF46D50AD8BD2785A3FACD710 /* HMListSelectionController.modulemap */,
+				542E40923DD2405904C76DCC170D0F7E /* HMListSelectionController.xcconfig */,
+				883BA7A2AE2F781A96D72F5628DA9093 /* HMListSelectionController-dummy.m */,
+				13F5C97E4251D22A1F2E170831A4E95C /* HMListSelectionController-prefix.pch */,
+				B76CF0BBC9894B9B6C66C2EEA2175C76 /* HMListSelectionController-umbrella.h */,
+				7AA1A4D5937D4959765B311412DC97EF /* Info.plist */,
+				6FBB77170C02852B6F06CA061EF68D09 /* ResourceBundle-HMListSelectionController-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HMListSelectionController";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				082134B213CE1997F090C3216FF8684A /* Development Pods */,
+				E0B9585F33EA03606DA92796AE33D51A /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				10AECAA2DB4A04A55FC5AE4EA379B90A /* Products */,
 				E5E7DFEE23EBFEB281BF405B10F23180 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		BE3F8225D7A124DC837F8244B28805EF /* Resources */ = {
+		E0B9585F33EA03606DA92796AE33D51A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B26380E070F65876D8463862F733D53A /* HMListSelectionController.xib */,
+				1011952981DA04E29EFBB7DD86BA34AF /* HMListSelectionController */,
 			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		DA168486137410D4225884E3B76A2A95 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2E44BCB6750933E976251210656DA05F /* HMListSelectionController.podspec */,
-				25A3B9F5420361E53073BE1D4D2FB78D /* LICENSE */,
-				08E2031FA383A6D787B2175D5334E027 /* README.md */,
-			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		E5E7DFEE23EBFEB281BF405B10F23180 /* Targets Support Files */ = {
@@ -254,6 +247,16 @@
 			path = "Target Support Files/Pods-HMListSelectionController_Tests";
 			sourceTree = "<group>";
 		};
+		EDF68435FB71F2EFAEE2B6D9453F3825 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3FFB92B1509FD6E0A411326A8F450ADF /* HMListSelectionController.podspec */,
+				5745479490515A1AD352A1ED875ED188 /* LICENSE */,
+				4C82E5F8B7748BC9122861BEE01A633C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -265,6 +268,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7054C03DCC4D24E1C628797355559997 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA441762AD6DFF7B1BD98DBB0B7B7BF /* HMListSelectionController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C55D77326DDF8C11245FC0390FC3E32B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -273,43 +284,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2C022B6890B4E2268567C30356AEC7F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A6F630823F8935A67B75552F288885F2 /* HMListSelectionController-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2E690F1E89EEE8508AE54E974A7CF3A9 /* HMListSelectionController */ = {
+		04936EBC37464ECA40FCF144EA25F12B /* HMListSelectionController-HMListSelectionController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6C1D7F4F7396D8B9053807400C5DFB5E /* Build configuration list for PBXNativeTarget "HMListSelectionController" */;
+			buildConfigurationList = A7216A8D2E9A1F74D1C4C6B9664EDEFE /* Build configuration list for PBXNativeTarget "HMListSelectionController-HMListSelectionController" */;
 			buildPhases = (
-				B5933162D9C73A126F60D08FB70BABBB /* Sources */,
-				34BACB9640885232143CB99B1D23C821 /* Frameworks */,
-				7253F7A952C6EDEB7AD547D5C7316B28 /* Resources */,
-				F2C022B6890B4E2268567C30356AEC7F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4AF0FC38A6DB02A81D8360A8E554B595 /* PBXTargetDependency */,
-			);
-			name = HMListSelectionController;
-			productName = HMListSelectionController;
-			productReference = 74825811F4F69836284F18373094E24E /* HMListSelectionController.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		55A80EC13610FD180374709FFED9D544 /* HMListSelectionController-HMListSelectionController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 37C7B8CEE6160C3CE4BB1DA4B887DCBE /* Build configuration list for PBXNativeTarget "HMListSelectionController-HMListSelectionController" */;
-			buildPhases = (
-				83380373A7B2BD3845BA8E7745F88CC1 /* Sources */,
-				11C1A658CE9FF2046F700EC54AFB443D /* Frameworks */,
-				3166D38F27D6D1416551707FCF9CE7A0 /* Resources */,
+				6BB1DA1D65E33383879FB3D0BEE2A305 /* Sources */,
+				DACB7D253BBB5B464DFA8FEB00579EA7 /* Frameworks */,
+				F6DF3901AB73895EDA475779B3455AC9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -319,6 +303,25 @@
 			productName = "HMListSelectionController-HMListSelectionController";
 			productReference = 45D03A1B3C7C7807C06D142AB0368E47 /* HMListSelectionController.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		59B5EFEFD2C26B79E06F6511332EFA51 /* HMListSelectionController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6977AE9B99AC18D6B20479504181766 /* Build configuration list for PBXNativeTarget "HMListSelectionController" */;
+			buildPhases = (
+				1623B8596A961AEB102342133DC2F81B /* Sources */,
+				1E4FA39346272AA4CD89E3C675DD843C /* Frameworks */,
+				14D7A61C715D20519DADEF756762DF77 /* Resources */,
+				7054C03DCC4D24E1C628797355559997 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				027AB8E66FFDDC1D21BA87BCC00DBE0D /* PBXTargetDependency */,
+			);
+			name = HMListSelectionController;
+			productName = HMListSelectionController;
+			productReference = 74825811F4F69836284F18373094E24E /* HMListSelectionController.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		7C14D14329AA5809C0809086BA8934D5 /* Pods-HMListSelectionController_Example */ = {
 			isa = PBXNativeTarget;
@@ -376,8 +379,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2E690F1E89EEE8508AE54E974A7CF3A9 /* HMListSelectionController */,
-				55A80EC13610FD180374709FFED9D544 /* HMListSelectionController-HMListSelectionController */,
+				59B5EFEFD2C26B79E06F6511332EFA51 /* HMListSelectionController */,
+				04936EBC37464ECA40FCF144EA25F12B /* HMListSelectionController-HMListSelectionController */,
 				7C14D14329AA5809C0809086BA8934D5 /* Pods-HMListSelectionController_Example */,
 				B93CCAAC4E986247E6953B56784A365F /* Pods-HMListSelectionController_Tests */,
 			);
@@ -385,25 +388,35 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3166D38F27D6D1416551707FCF9CE7A0 /* Resources */ = {
+		14D7A61C715D20519DADEF756762DF77 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E853C220E7F5A4A1E4E1B0CDFCF5C63 /* HMListSelectionController.xib in Resources */,
+				1FD28A6877B9E685BF6AF9594C492C3D /* HMListSelectionController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7253F7A952C6EDEB7AD547D5C7316B28 /* Resources */ = {
+		F6DF3901AB73895EDA475779B3455AC9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07D79562EE98A197F9AA9B6F334BAFF0 /* HMListSelectionController.bundle in Resources */,
+				A47FB03DC94AE7C3BAA07A3EF5ED3506 /* HMListSelectionController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1623B8596A961AEB102342133DC2F81B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93241FD132D4FA2D1461421D599E8CF0 /* HMListSelectionController-dummy.m in Sources */,
+				30A24E8D9161E7559E77E27C019BEB92 /* HMListSelectionController.swift in Sources */,
+				2E6190EA6E68556631F83D424F41F780 /* HMListSelectionControllerDTO.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2F4BF96AC80A93B2D765FF2A55D7A23C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -412,19 +425,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83380373A7B2BD3845BA8E7745F88CC1 /* Sources */ = {
+		6BB1DA1D65E33383879FB3D0BEE2A305 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B5933162D9C73A126F60D08FB70BABBB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0917A5E5D6472ADF7D23E3E6B59E512C /* HMListSelectionController-dummy.m in Sources */,
-				8E91C96FBC79DEE6AFC7BE5C600AD83D /* HMListSelectionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,16 +443,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4AF0FC38A6DB02A81D8360A8E554B595 /* PBXTargetDependency */ = {
+		027AB8E66FFDDC1D21BA87BCC00DBE0D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "HMListSelectionController-HMListSelectionController";
-			target = 55A80EC13610FD180374709FFED9D544 /* HMListSelectionController-HMListSelectionController */;
-			targetProxy = 022E9F29843952101AEFE4D959EC818E /* PBXContainerItemProxy */;
+			target = 04936EBC37464ECA40FCF144EA25F12B /* HMListSelectionController-HMListSelectionController */;
+			targetProxy = EC799166DD03AB71FDD27485ACF1F66C /* PBXContainerItemProxy */;
 		};
 		6938B116296EBB99E35546DC8E077208 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HMListSelectionController;
-			target = 2E690F1E89EEE8508AE54E974A7CF3A9 /* HMListSelectionController */;
+			target = 59B5EFEFD2C26B79E06F6511332EFA51 /* HMListSelectionController */;
 			targetProxy = E5DF84646B1D9E37B99159C81AF8BAA3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -616,6 +620,53 @@
 			};
 			name = Debug;
 		};
+		65B3BDFC64CDFF782002906673B25B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 542E40923DD2405904C76DCC170D0F7E /* HMListSelectionController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HMListSelectionController/HMListSelectionController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HMListSelectionController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HMListSelectionController/HMListSelectionController.modulemap";
+				PRODUCT_NAME = HMListSelectionController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		80749CC0DBBD7D9CA66F68AE95AFEB4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 542E40923DD2405904C76DCC170D0F7E /* HMListSelectionController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HMListSelectionController";
+				INFOPLIST_FILE = "Target Support Files/HMListSelectionController/ResourceBundle-HMListSelectionController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = HMListSelectionController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -674,25 +725,9 @@
 			};
 			name = Release;
 		};
-		91CB311A5A70CE2B318C927B9F531EC9 /* Release */ = {
+		B428B7FDF5922A2A4D598A94A1E5FADB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0553E36449D15012FEAA394CD7D7393A /* HMListSelectionController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HMListSelectionController";
-				INFOPLIST_FILE = "Target Support Files/HMListSelectionController/ResourceBundle-HMListSelectionController-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = HMListSelectionController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		CE3F83EB72E69FDE28759E28051F4A3E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0553E36449D15012FEAA394CD7D7393A /* HMListSelectionController.xcconfig */;
+			baseConfigurationReference = 542E40923DD2405904C76DCC170D0F7E /* HMListSelectionController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -722,34 +757,19 @@
 			};
 			name = Release;
 		};
-		DB4E63CE198EF04894DA3E85813E143F /* Debug */ = {
+		B615DDDB8A65209ED720C30C84D01C5D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0553E36449D15012FEAA394CD7D7393A /* HMListSelectionController.xcconfig */;
+			baseConfigurationReference = 542E40923DD2405904C76DCC170D0F7E /* HMListSelectionController.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HMListSelectionController/HMListSelectionController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HMListSelectionController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HMListSelectionController";
+				INFOPLIST_FILE = "Target Support Files/HMListSelectionController/ResourceBundle-HMListSelectionController-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HMListSelectionController/HMListSelectionController.modulemap";
 				PRODUCT_NAME = HMListSelectionController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -787,22 +807,6 @@
 			};
 			name = Debug;
 		};
-		E32FD269C8BC93E72BF74F9255208320 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0553E36449D15012FEAA394CD7D7393A /* HMListSelectionController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HMListSelectionController";
-				INFOPLIST_FILE = "Target Support Files/HMListSelectionController/ResourceBundle-HMListSelectionController-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = HMListSelectionController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -811,15 +815,6 @@
 			buildConfigurations = (
 				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
 				827269710C98D60C14D46BC6AF9BF728 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		37C7B8CEE6160C3CE4BB1DA4B887DCBE /* Build configuration list for PBXNativeTarget "HMListSelectionController-HMListSelectionController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E32FD269C8BC93E72BF74F9255208320 /* Debug */,
-				91CB311A5A70CE2B318C927B9F531EC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -833,11 +828,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6C1D7F4F7396D8B9053807400C5DFB5E /* Build configuration list for PBXNativeTarget "HMListSelectionController" */ = {
+		A6977AE9B99AC18D6B20479504181766 /* Build configuration list for PBXNativeTarget "HMListSelectionController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB4E63CE198EF04894DA3E85813E143F /* Debug */,
-				CE3F83EB72E69FDE28759E28051F4A3E /* Release */,
+				65B3BDFC64CDFF782002906673B25B39 /* Debug */,
+				B428B7FDF5922A2A4D598A94A1E5FADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7216A8D2E9A1F74D1C4C6B9664EDEFE /* Build configuration list for PBXNativeTarget "HMListSelectionController-HMListSelectionController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B615DDDB8A65209ED720C30C84D01C5D /* Debug */,
+				80749CC0DBBD7D9CA66F68AE95AFEB4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
