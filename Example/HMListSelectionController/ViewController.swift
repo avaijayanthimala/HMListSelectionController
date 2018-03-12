@@ -35,6 +35,7 @@ class ViewController: UIViewController, HMListSelectionDelegate {
                 listSelectionController.selectedary = selectedItems;
                 listSelectionController.addButtonNeeded = false
                 listSelectionController.isMultiSelection = true
+                listSelectionController.isSearchFieldNeeded = false
                 
                 let navBarProperties = NavBarPropertiesDTO()
                 navBarProperties.navBarBGColor = .red

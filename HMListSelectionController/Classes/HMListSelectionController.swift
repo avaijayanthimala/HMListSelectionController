@@ -43,6 +43,8 @@ public class HMListSelectionController: UIViewController, UITableViewDelegate, U
     
     public var addButtonNeeded: Bool!
     
+    public var isSearchFieldNeeded: Bool!
+    
     public var delegate : HMListSelectionDelegate?
     
     let searchController = UISearchController(searchResultsController: nil)
@@ -67,11 +69,12 @@ public class HMListSelectionController: UIViewController, UITableViewDelegate, U
             addBtnHeightConstraint.constant = 0
         }
         self.view.layoutIfNeeded()
+        
         lblTitle.text = navBarProperties.navBarTitle
         lblTitle.textColor = navBarProperties.navBarTextColor
         lblTitle.font = UIFont(name: navBarProperties.navBarFontFamily!, size: navBarProperties.navBarFontSize!)
-        
         viewHeader.backgroundColor = navBarProperties.navBarBGColor
+        
         
         tableView.reloadData();
     }
@@ -160,14 +163,15 @@ public class HMListSelectionController: UIViewController, UITableViewDelegate, U
     //MARK: - Search Bar
     
     func setupSearchController() {
-        definesPresentationContext = true
-        searchController.dimsBackgroundDuringPresentation = false
-        searchController.searchResultsUpdater = self
-        searchController.searchBar.barTintColor = UIColor(white: 0.9, alpha: 0.9)
-        searchController.searchBar.placeholder = "Search"
-        searchController.hidesNavigationBarDuringPresentation = false
-        
-        tableView.tableHeaderView = searchController.searchBar
+        if isSearchFieldNeeded == true {
+            definesPresentationContext = true
+            searchController.dimsBackgroundDuringPresentation = false
+            searchController.searchResultsUpdater = self
+            searchController.searchBar.barTintColor = UIColor(white: 0.9, alpha: 0.9)
+            searchController.searchBar.placeholder = "Search"
+            searchController.hidesNavigationBarDuringPresentation = false
+            tableView.tableHeaderView = searchController.searchBar
+        }
     }
     
     func filterRowsForSearchedText(_ searchText: String) {
